@@ -1,169 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+
+  <meta charset="utf-8">
+  <title>Basic Math Trivia Quiz</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
     crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 </head>
 
 <body>
-  <div id="bg_body" class="container-fluid">
-    <div class="container-fluid text-center">
-      <h3>Multiple choice timed trivia.</h3>
-    </div>
-
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
     <div class="container">
-      <div class="row text-center">
+      <div class="row">
+        <h1 class="text-center">Basic Math Trivia Quiz</h1>
         <div class="col-md-2">
         </div>
-        <div class="col-md-8">
-          <p id="timer"></p>
+        <div class="mainArea col-md-8 text-center">
         </div>
         <div class="col-md-2">
         </div>
-      </div>
-      <div class="container">
-        <div id="question" class="row text-center">
-          <div class="col-md-2">
-
-          </div>
-          <div id="mainQuestion" class="col-md-8">
-            <h1>Main Question</h1>
-          </div>
-          <div class="col-md-2">
-          </div>
-        </div>
-        <div id="choice1" class="row text-center">
-          <div class="col-md-3">
-          </div>
-          <div class="col-md-6">
-            <p id="ans1">choice 1</p>
-          </div>
-          <div class="col-md-3">
-          </div>
-        </div>
-
-        <div id="choice2" class="row text-center">
-          <div class="col-md-3">
-          </div>
-          <div class="col-md-6">
-            <p id="ans2">choice 2</p>
-          </div>
-          <div class="col-md-3">
-          </div>
-        </div>
-
-        <div id="choice3" class="row text-center">
-          <div class="col-md-3">
-
-          </div>
-          <div class="col-md-6">
-            <p id="ans3">choice 3</p>
-          </div>
-          <div class="col-md-3">
-          </div>
-        </div>
-
-        <div id="choice4" class="row text-center">
-          <div class="col-md-3">
-
-          </div>
-          <div class="col-md-6">
-            <p id="ans4">choice 4</p>
-          </div>
-          <div class="col-md-3">
-
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
 
+  <div class="container">
+
+  </div>
+  <!-- /container -->
   <script src="./assets/javascript/app.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Trivia Game</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="/Users/Jaymar/SMU_HW/week5/TriviaGame/assets/css/style.css"> -->
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
-
-    <link rel="icon" type="image/gif" href="./assets/images/IMG_3456.jpg"/>
-
-    <!-- Custom styles for this template -->
-<!--    <link href="jumbotron-narrow.css" rel="stylesheet">-->
-
-  </head>
-
-  <body>
-  
-    <audio controls loop>
-      <source src="./assets/images/tumblr_lq9mbjMc3g1qas0n5o1.mp3" type="audio/mp3"/>
-    </audio>
-   
-    <div class="container">
-      <div class="header text-center clearfix">
-        <h1 class="text-muted">Friends trivia game</h1>
-      </div>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-        <div id="game">
-          <h2>FRIENDS Trivia Game</h2>
-          <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
-          <p id="question" class="lead"></p>
-        </div>
-        <div id="results">
-        </div>
-      </div>
-
-      <div class="row">
-        <div id="choices" class="text-center">
-          <button id="start" class="btn btn-info btn-lg">Start Game</button>
-          <div id="options">
-            
-          </div>
-          
-        </div>
-      </div>
-
-    </div> <!-- /container -->
-
-    <!-- jQuery CDN-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- TRIVIA APP JS -->
-    <script src="./assets/apps/apps.js"></script>  
-
-
-  </body>
-</html>
-
